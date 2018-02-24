@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Дополнение к теме -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="cart">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Категорія товарів 1</a>
+                    <ul class="toggleMenu">
+                        <li><a href="#">Категорія товарів</a></li>
+                        <li><a href="#">Категорія товарів</a></li>
+                        <li><a href="#">Категорія товарів</a></li>
+                        <li class="sub"><a href="#">Категорія товарів</a>
+                            <input type="checkbox" id="toggle" value="" class="toggleSubMenu">
+                            <label class="icon" for="toggle"><i class="glyphicon glyphicon-chevron-down"></i></label>
+                            <ul class="submenu">
+                                <li><a href="#">Категорія товарів</a></li>
+                                <li><a href="#">Категорія товарів</a></li>
+                                <li><a href="#">Категорія товарів</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Категорія товарів</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Категорія товарів 2</a></li>
+                <li><a href="#">Категорія товарів 3</a></li>
+            </ul>
+        </nav>
+
+        <button class="btn1" onclick="#" type="button" name="button"><i class="glyphicon glyphicon-shopping-cart"></i></button>
+        <div id="div" class="checkoutcart1">
+            <form action="#" method="post" enctype="multipart/form-data" id="formcart">
+                <a class="order" href="#zatemnenie">Оформить заказ</a>
+            </form>
+        </div>
+    </div>
+
+    <div id="zatemnenie">
+        <div class="okno2">
+            Спасибо за покупку.Наши менеджеры свяжутся с вами в ближайшее время<br>
+            <a href="#" class="close"></a>
+        </div>
+    </div>
+
+    <div class="task3">
+        <li>
+            <input class="filtr-chk" type="checkbox" id="filter1" value="1">
+            <label class="checkbox" for="filter1">раз</label>
+        </li>
+        <li>
+            <input class="filtr-chk" type="checkbox" id="filter2" value="2">
+            <label class="checkbox" for="filter2">два</label>
+        </li>
+        <li>
+            <input class="filtr-chk" type="checkbox" id="filter3" value="3">
+            <label class="checkbox" for="filter3">три</label>
+        </li>
+    </div>
+
+    <div class="rating">
+        <input type="radio" name="rating" id="star5" value="5">
+        <label for="star5" title="very high"></label>
+        <input type="radio" name="rating" id="star4" value="4">
+        <label for="star4" title="high"></label>
+        <input type="radio" name="rating" id="star3" value="3">
+        <label for="star3" title="medium"></label>
+        <input type="radio" name="rating" id="star2" value="2">
+        <label for="star2" title="low"></label>
+        <input type="radio" name="rating" id="star1" value="1">
+        <label for="star1" title="very low"></label>
+    </div>
+
+
+</body>
+</html>
